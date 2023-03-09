@@ -2,7 +2,7 @@ import React from "react";
 import { useTypewriter } from 'react-simple-typewriter';
  import Button from 'react-bootstrap/Button'; 
 import "./home.css";
-import CV from "./CV.pdf";
+import CV from "../../Files/CV.pdf";
 export const Home = () => {
     const [text] = useTypewriter({
       words: [' RANARISON Tolotra', ' Frontend Developer', ' Backend Developer'],

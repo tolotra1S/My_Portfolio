@@ -9,24 +9,23 @@ function NavBar() {
     <>
       <nav className="navbar">
         
-          <a exact to="/" className="nav-logo">M'lay </a>
+          <a className="nav-logo">M'lay </a>
       <div className="nav-container">
           <ul className={click ? "nav-menu active" : "nav-menu"} id="navbar">
             <li className="nav-item">
-              <a exact to="/" activeClassName="active" className="link" onClick={handleClick}> Home </a>
+              <a href="/#Home" activeClassName="active" className="link" onClick={handleClick}> Home </a>
             </li>
             <li className="nav-item">
-              <a exact to="/about" activeClassName="active" className="link" onClick={handleClick} >About</a>
+              <a href="/#About" activeClassName="active" className="link" onClick={handleClick} >About</a>
             </li>
             <li className="nav-item">
-              <a exact to="/blog" activeClassName="active" className="link" onClick={handleClick}>Formation/Diplome </a>
+              <a href="/#Formation" activeClassName="active" className="link" onClick={handleClick}>Formation/Diplome </a>
             </li>
             <li className="nav-item">
-              <a exact to="/competence" activeClassName="active" className="link" onClick={handleClick}>Competence</a>
+              <a href="/#Competence" activeClassName="active" className="link" onClick={handleClick}>Competence</a>
               </li>
               <li className="nav-item">
-              <a
-                exact to="/contact" activeClassName="active" className="link" onClick={handleClick}>Contact Us </a>
+              <a href="/#Contact" activeClassName="active" className="link" onClick={handleClick}>Contact Us </a>
             </li>
             
           </ul>

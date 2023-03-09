@@ -19,19 +19,19 @@ nav{
   padding: 0 20px;
   position: relative;
 }
-#navbar li .link{
+#navbar li a{
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
   color: #fff;
 
 }
-#navbar li .link:hover,
-#navbar li .link.active
+#navbar li a:hover,
+#navbar li a.active
 {
   color: #35807E;
 }
-#navbar li .link:hover::after,#navbar li .link.active::after{
+#navbar li a:hover::after,#navbar li a.active::after{
   content: "";
   width: 30%;
   height: 20%;
