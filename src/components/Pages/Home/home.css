@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+}
+.Home {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+  }
+.text{
+}
+/* .Hello{
+    margin-left: -300px;
+} */
+.Im{
+    color: #9C6315;
+}
+.ok{
+    display: flex;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: 14px 40px;
+    border-radius: 15px;
+    background:linear-gradient(to right,#35807E,#285F67) ;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover{
+    
+    padding: 16px 42px;
+    font-size: 20px
+}
+.CV{
+    
+}
