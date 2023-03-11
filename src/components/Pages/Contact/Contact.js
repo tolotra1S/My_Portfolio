@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 export const Contact = () => {
   return (
   <div className="Contact" id="Contact">
-    <h1>Competence</h1>
+    <h1>Contact</h1>
   </div>
   
   );
