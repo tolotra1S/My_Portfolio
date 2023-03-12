@@ -15,55 +15,27 @@ export const Home = () => {
     })
   return (
     <div className="Home">
-      <div className="text">
+    <div className="ContainerHome">
+        <div className="text">
+        
+          <div className="Hello"><h4>Hello World,</h4></div>
+          <div className="ok"><h4 className="Im">I'm -</h4><h4 className="text">{text}</h4></div>
+      </div> 
+  <br/>
+      <div className="button"> 
+        <a href={CV} download={"CV"}>
+        <button className="btn">
+          <span className="CV">Contact me</span></button>
+        </a>
+        <a href={CV} download={"CV"}>
+        <button className="btn">
+          <span className="CV">Download CV</span></button>
+        </a>
       
-         <div className="ok"><h4>Hello World,</h4></div>
-        <div className="ok"><h4 className="Im">I'm -</h4><h4 className="text">{text}</h4></div>
-    </div> 
-<br/>
-    <div> 
-      <a href={CV} download={"CV"}>
-      <button className="btn">
-        <span className="CV">Contact me</span></button>
-      </a>
-      <a href={CV} download={"CV"}>
-      <button className="btn">
-        <span className="CV">Download CV</span></button>
-      </a>
-    
+      </div>
     </div>
-    <div className="i-right">
-        <img src={Vector1} alt="" />  
-        <img src={Vector2} alt="" />
-        <img src={Moi} alt="" />
-        {/* animation */}
-        <img
-          initial={{ left: "-36%" }}
-          whileInView={{ left: "-24%" }}
-          transition={transition}
-          alt=""
-        />
-
-        <div
-          initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "68%" }}
-          transition={transition}
-          className="floating-div"
-        >
-          
-        </div>
-
-        {/* animation */}
-        <div
-          initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
-          transition={transition}
-          className="floating-div"
-        >
-          {/* floatinDiv mein change hy dark mode ka */}
-          
-        </div>
-        </div>
+  
+        
     </div>
   );
 }
