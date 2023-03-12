@@ -1,9 +1,6 @@
 import React from "react";
 import { useTypewriter } from 'react-simple-typewriter';
  import Button from 'react-bootstrap/Button'; 
- import Vector1 from "../../Images/Vector1.png";
- import Vector2 from "../../Images/Vector2.png";
- import Moi from "../../Images/Moi.png";
 import "./home.css";
 
 import CV from "../../Files/CV.pdf";

@@ -1,5 +1,25 @@
 .About{
+    height: 90vh;
+    
+    color: black;
+    border: 1px solid green;
+    margin-top: 4rem;
+}
+.containerAbout{
     display: flex;
-    height: 77vh;
-    margin-top: 6rem;
+}
+.intro{
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    
+}
+.photo{
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+}
+.photoMoi{
+    width: 300px;
+    margin-left: 200px;
 }
