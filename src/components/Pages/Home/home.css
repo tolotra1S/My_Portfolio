@@ -1,13 +1,12 @@
 body{
-    background-color: white;
 }
 .Home {
-    height: 90vh;/* 
+    height: 100vh;/* 
     margin-top: 6rem; */
     background-image: url(../../Images/fond.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    border: 1px solid red;
+    border: 1px solid transparent;
   }
 .text{
     color: #285F67;

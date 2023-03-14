@@ -1,24 +1,33 @@
 .About{
-    height: 90vh;
-    
-    color: black;
-    border: 1px solid green;
-    margin-top: 4rem;
+    height: 100vh;
+    color: #fff;
+}
+.aboutme{
+    color: #285F67;
+    text-align: center;
+    font-size: 50px;
 }
 .containerAbout{
     display: flex;
+    margin-top: 20px;
 }
 .intro{
     width: 50%;
+    margin-left: 50px;
     height: 500px;
-    border: 1px solid black;
+    
 }
 .photo{
-    width: 50%;
+    width: 40%;
     height: 500px;
-    border: 1px solid black;
 }
 .photoMoi{
     width: 300px;
-    margin-left: 200px;
+    margin-left: 100px;
+    border-radius: 20%;
+}
+.ico{
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
 }

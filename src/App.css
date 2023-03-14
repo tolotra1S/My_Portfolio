@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #b5fac7;
+  background: rgb(0,15,33);
+  background: linear-gradient(90deg, rgba(0,15,33,1) 0%, rgba(1,1,15,1) 0%, rgba(0,9,25,1) 74%, rgba(1,8,14,1) 88%);
 }
 
 .pages {
